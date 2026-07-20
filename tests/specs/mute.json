@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/mute",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Restrict user message sending for specified duration"
+            }
+          }
+        ],
+        "send": {
+          "text": "/mute"
+        }
+      }
+    ]
+  }
+]
